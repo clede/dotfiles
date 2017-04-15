@@ -1,3 +1,7 @@
+# Personalized aliases file
+#
+# Shortcuts and functions that take arguments
+
 # some more ls aliases
 alias ll='ls -AlFX'
 alias la='ls -A'
