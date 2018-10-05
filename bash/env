@@ -2,7 +2,7 @@
 #
 # Values used by other scripts and applications.
 
-# Use nano as the editor
+# Use vim as the editor
 export EDITOR=vi
 
 # don't put duplicate lines or lines starting with space in the history.
