@@ -1,4 +1,8 @@
+" Don't use vi-compatibility mode
 set nocp
+
+" Turn on filetype detection, use appropriate plugin & indent files
 filetype plugin indent on
-colo delek
+
+colorscheme delek
 syntax on
