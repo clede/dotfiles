@@ -6,9 +6,10 @@
 alias ll='ls -AlF'
 alias la='ls -A'
 alias l='ls -CF'
-
-# Add some helpful aliases
 alias l.='ls -d .* --color=auto'
+
+# Ubuntu
+alias up='sudo apt-get update && sudo apt-get --with-new-pkgs upgrade'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
