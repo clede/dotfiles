@@ -35,6 +35,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Source my more specific dotfiles.
 . ~/bin/dotfiles/bash/env
 . ~/bin/dotfiles/bash/aliases
 . ~/bin/dotfiles/bash/config
+
+if [ -f ~/bin/dotfiles/bash/private_aliases ]; then
+  . ~/bin/dotfiles/bash/private_aliases
+fi
+
