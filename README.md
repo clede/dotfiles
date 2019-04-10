@@ -14,3 +14,7 @@ Examples:
 
 `:source ~/bin/dotfiles/vimrc`
 
+**~/.vim/ftplugin/python.vim**
+
+`:source ~/bin/dotfiles/vim/ftplugin/python.vim`
+
