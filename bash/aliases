@@ -3,7 +3,7 @@
 # Shortcuts and functions that take arguments
 
 # some more ls aliases
-alias ll='ls -AlF'
+alias ll='ls -AlFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias l.='ls -d .* --color=auto'
