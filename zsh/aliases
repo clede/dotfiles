@@ -1,0 +1,15 @@
+# Personalized aliases file
+# 
+# Shortcuts and functions that take arguments
+
+# s'more ls aliases
+alias ll='ls -AlFh'
+
+# Ubuntu
+alias up='sudo apt-get update && sudo apt-get --with-new-pkgs upgrade'
+
+# allow pip to install packages globally without an active 
+# virtualenv.
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="0" python -m pip "$@"
+}
