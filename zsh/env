@@ -1,0 +1,27 @@
+# Personalized env file
+#
+# Values used by other scripts and applications.
+
+# Use vim as the editor
+export EDITOR=vi
+
+# COMMAND HISTORY
+# NEED TO DETERMINE HOW TO DO THIS IN ZSH
+# don't put duplicate lines or lines starting with space in the history.
+# append to the history file, don't overwrite it
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+
+# Change umask to make directory sharing easier
+umask 0002
+
+# Add my personal bin directory to the path.
+export PATH=$PATH:~/bin
+
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# ensure asdf is loaded for all shell sessions.
+# (I use asdf to manage multiple versions of python, for example)
+# APPLE SILICON PATH: /opt/homebrew/opt/asdf/libexec/asdf.sh
+# MORE PORTABLE: "$(brew --prefix asdf)/libexec/asdf.sh"
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
