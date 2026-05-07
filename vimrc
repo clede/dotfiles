@@ -2,7 +2,9 @@
 set nocp
 
 " Set default encoding to UTF-8
-set encoding=utf-8
+set encoding=utf-8             " internal encoding
+set fileencoding=utf-8         " on-disk encoding
+set fileencodings=utf-8,latin1 " list of guesses when opening a file
 
 " Turn on filetype detection, use appropriate plugin & indent files
 filetype plugin indent on
