@@ -8,6 +8,8 @@ set fileencodings=utf-8,latin1 " list of guesses when opening a file
 
 " Turn on filetype detection, use appropriate plugin & indent files
 filetype plugin indent on
+" Add custom plugin directory (searched last)
+set runtimepath+=~/bin/dotfiles/vim
 
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -18,5 +20,5 @@ set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab
 
-colorscheme delek
+colorscheme habamax
 syntax on
