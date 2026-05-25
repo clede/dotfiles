@@ -24,4 +24,10 @@ export PATH=$PATH:~/bin
 # (I use asdf to manage multiple versions of python, for example)
 # APPLE SILICON PATH: /opt/homebrew/opt/asdf/libexec/asdf.sh
 # MORE PORTABLE: "$(brew --prefix asdf)/libexec/asdf.sh"
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+# . /opt/homebrew/opt/asdf/libexec/asdf.sh
+#
+# NOTE: This is no longer done using a sh script.
+
+# Customized Prompt
+PROMPT="[%D{%Y-%m-%d}, %T] jonathan $ "
+
