@@ -14,6 +14,16 @@ export EDITOR=vi
 # Change umask to make directory sharing easier
 umask 0002
 
+
+# ASDF in the path
+# asdf via Homebrew
+# export PATH="/opt/homebrew/opt/asdf/libexec/bin:${PATH}"
+# export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:${PATH}"
+
+export ASDF_DATA_DIR="${ASDF_DATA_DIR:-$HOME/.asdf}"
+export PATH="$ASDF_DATA_DIR/shims:$PATH"
+
+
 # Add my personal bin directory to the path.
 export PATH=$PATH:~/bin
 
@@ -29,5 +39,5 @@ export PATH=$PATH:~/bin
 # NOTE: This is no longer done using a sh script.
 
 # Customized Prompt
-PROMPT="[%D{%Y-%m-%d}, %T] jonathan $ "
+PROMPT="[%D{%Y-%m-%d}, %D{%H:%M:%S}] jonathan $ "
 
